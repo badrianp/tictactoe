@@ -44,7 +44,6 @@ macos/Flutter/ephemeral/
 windows/Flutter/ephemeral/
 
 # Web related
-lib/generated_plugin_registrant.dart
 
 # IntelliJ / VSCode
 *.iml

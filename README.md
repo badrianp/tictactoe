@@ -1,16 +1,41 @@
-# tictactoe_app
+# TicTacToe (Flutter)
 
-A new Flutter project.
+A simple **TicTacToe** game built with Flutter and Dart.  
+Includes both **Player vs Player** and **Player vs AI** modes with three difficulty levels.
 
-## Getting Started
+## 🎮 Features
+- **Game modes:**  
+  - Player vs Player (local)  
+  - Player vs AI with 3 levels:  
+    - Easy → random moves  
+    - Medium → blocks opponent’s winning moves  
+    - Hard → tries to win, then block, then take center/edges  
+- **UI:**  
+  - Clean and responsive layout (portrait & landscape)  
+  - Turn indicator for X / O  
+  - Winning line highlight  
+  - Game over dialog with replay & mode switch  
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+### Run locally
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🌐 Build for Web
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter build web
+```
+
+The web version is generated in build/web, ready for deployment to Vercel, Netlify, or GitHub Pages.
+
+## 🛠️ Tech Stack
+	•	Flutter
+	•	Dart
+
+⸻
+
+## 📌 Created as a practice project to explore Flutter UI development and basic game AI.
